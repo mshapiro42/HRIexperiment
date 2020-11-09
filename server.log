@@ -1,0 +1,476 @@
+2020-10-30 14:42:42,925 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+[2020-10-30 14:54:37 +0000] [6324] [ERROR] Retrying in 1 second.
+[2020-10-30 14:54:38 +0000] [6324] [ERROR] Retrying in 1 second.
+[2020-10-30 14:54:39 +0000] [6324] [ERROR] Retrying in 1 second.
+[2020-10-30 14:54:40 +0000] [6324] [ERROR] Retrying in 1 second.
+[2020-10-30 14:54:41 +0000] [6324] [ERROR] Retrying in 1 second.
+[2020-10-30 14:54:42 +0000] [6324] [ERROR] Can't connect to ('localhost # if testing locally (before heroku deployment)', 22362)
+2020-10-30 14:58:32,845 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-10-30 15:03:39,452 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-10-30 15:03:49,542 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-10-30 15:04:00,537 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-10-30 15:12:53,328 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-10-30 15:14:48,910 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-10-30 15:24:01,049 insert_mode_failed (1020) {'assignmentId': [u'debugQA2WJZ'], 'workerId': [u'debugOMWSR1'], 'hitId': [u'debugDK8TWF'], 'mode': [u'debug']}
+2020-10-30 15:25:01,030 insert_mode_failed (1020) {'assignmentId': [u'debugJCOR43'], 'workerId': [u'debugUJZWGP'], 'hitId': [u'debugWKOQ67'], 'mode': [u'debug']}
+[2020-10-30 15:31:38 +0000] [9630] [CRITICAL] WORKER TIMEOUT (pid:9634)
+2020-10-30 15:34:25,359 insert_mode_failed (1020) {'assignmentId': [u'debug0OZ2KG'], 'workerId': [u'debugQCLZWB'], 'hitId': [u'debugXUQLA5'], 'mode': [u'debug']}
+2020-10-30 15:34:42,952 insert_mode_failed (1020) {'assignmentId': [u'debug0OZ2KG'], 'workerId': [u'debugQCLZWB'], 'hitId': [u'debugXUQLA5'], 'mode': [u'debug']}
+2020-10-30 15:35:46,826 insert_mode_failed (1020) {'assignmentId': [u'debug66H9HS'], 'workerId': [u'debugHRILS6'], 'hitId': [u'debugPE4RP4'], 'mode': [u'debug']}
+2020-10-30 15:37:01,667 insert_mode_failed (1020) {'assignmentId': [u'debug0L2G3I'], 'workerId': [u'debugJZR6EA'], 'hitId': [u'debugHXCHUV'], 'mode': [u'debug']}
+2020-10-30 15:39:05,190 insert_mode_failed (1020) {'assignmentId': [u'debug9S72H1'], 'workerId': [u'debugGCLQBK'], 'hitId': [u'debug1DU9S7'], 'mode': [u'debug']}
+2020-10-30 15:41:01,540 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-10-30 15:51:24,418 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-10-30 15:51:54 +0000] [11683] [CRITICAL] WORKER TIMEOUT (pid:11692)
+2020-11-05 11:17:35,859 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-11-05 11:18:05 +0000] [4725] [CRITICAL] WORKER TIMEOUT (pid:4729)
+2020-11-05 11:20:01,706 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-11-05 11:20:32 +0000] [4866] [CRITICAL] WORKER TIMEOUT (pid:4870)
+2020-11-05 11:27:36,044 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-11-05 11:28:06 +0000] [5185] [CRITICAL] WORKER TIMEOUT (pid:5189)
+2020-11-05 11:29:32,825 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-11-05 11:29:36,977 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 11:30:14,254 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-11-05 11:32:21,369 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-11-05 11:32:25,526 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-11-05 11:32:56 +0000] [5687] [CRITICAL] WORKER TIMEOUT (pid:5691)
+2020-11-05 11:36:24,664 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-11-05 11:36:30,028 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-11-05 11:37:00 +0000] [5893] [CRITICAL] WORKER TIMEOUT (pid:5897)
+2020-11-05 11:38:10,646 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-11-05 11:38:15,425 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 11:41:25,385 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-11-05 11:48:30,374 Exception on /final_question.html [GET]
+Traceback (most recent call last):
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 2317, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1840, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1743, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1838, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/app.py", line 1824, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/megan/.local/lib/python2.7/site-packages/psiturk/experiment.py", line 747, in regularpage
+    return render_template(pagename)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/megan/.local/lib/python2.7/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/megan/.local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: final_question.html
+2020-11-05 11:48:34,417 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 11:56:51,056 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 11:57:35,867 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 12:04:58,890 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 12:51:42,684 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-11-05 12:52:13 +0000] [11527] [CRITICAL] WORKER TIMEOUT (pid:11531)
+2020-11-05 13:10:54,081 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-11-05 13:22:35 +0000] [12989] [CRITICAL] WORKER TIMEOUT (pid:12993)
+2020-11-05 13:28:01,380 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 16:04:42,637 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 16:28:08,677 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+2020-11-05 16:28:41,045 hit_assign_worker_id_not_set_in_exp (1003) {'gender': [u'female'], 'age': [u'23']}
+[2020-11-05 16:29:11 +0000] [19567] [CRITICAL] WORKER TIMEOUT (pid:19571)

@@ -1,0 +1,52 @@
+[HIT Configuration]
+title = Exploration of Narrative Styles in Interactive Storytelling # Your title here.
+description = This experiment will explore a participants levels of enjoyment and engagement during an interactive storytelling game, relative to the type of narrative style used during the story. # Give a description!
+amt_keywords = Psychology, Philosophy, Robot, Robots, Language, Interaction, Storytelling, Narative Perspective
+lifetime = 24 
+us_only = true
+approve_requirement = 80
+contact_email_on_error = twilliams@mines.edu
+ad_group = Default psiTurk Robot Ethics
+psiturk_keywords = ethics, robots, trust, interaction
+organization_name = MIRRORLab @ Colorado School of Mines
+browser_exclude_rule = MSIE, mobile, tablet
+allow_repeats = false
+
+[Database Parameters]
+
+database_url = sqlite:///clarification.db
+#database_url = postgres://uvipxxpjjhbrdu:6837c98f00644d2933b5af79d8d54214e64af96054d902ec900ee20dba6199db@ec2-54-243-67-199.compute-1.amazonaws.com:5432/d2ktvi119cch6a # Example postgres database url
+
+[Server Parameters]
+host = 0.0.0.0 
+# Once you have heroku set up
+# host = localhost 
+# If testing locally (before heroku deployment)
+port = 22362
+cutoff_time = 60
+logfile = server.log
+loglevel = 2
+debug = true
+login_username = mshapiro@mines.edu
+login_pw = HRI2020GroupH
+threads = 1
+secret_key = 'm84rUPYvGN5H6qeqWdyAST'
+
+[Task Parameters]
+experiment_code_version = 1.0 # Update this every time you change your code! (Sometimes it breaks if you don't)
+num_conds = 2
+# We have 2 paths to show, either Path 1 or Path 2. This condition will say which path will
+# be shown first  to each participant
+# This experiment has 4 between-subjects, followed by 4 within-subjects (hence 16)
+num_counters = 1
+
+[Shell Parameters]
+launch_in_sandbox_mode = false
+
+# If you are not using the psiturk ad server, set `use_psiturk_ad_server` to `false` and point `ad_location` to your proxy server <host> and <port>. Format the ad_location like this:
+#
+#   https://<host>:<port>/ad
+
+use_psiturk_ad_server = true
+ad_location = https://vast-eyrie-35890.herokuapp.com/pub # Your heroku app url
+# ad_location = https://frozen-wave-83600.herokuapp.com/pub Example heroku app url
